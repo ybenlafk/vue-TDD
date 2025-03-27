@@ -1,0 +1,30 @@
+{
+  "name": "vue-tdd-ecommerce-workshop",
+  "version": "1.0.0",
+  "description": "A TDD workshop for building an e-commerce app with Vue 3 and Pinia",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "test:module1": "vitest run -c vitest.config.js tests/module1",
+    "test:module2": "vitest run -c vitest.config.js tests/module2",
+    "test:module3": "vitest run -c vitest.config.js tests/module3",
+    "test:module4": "vitest run -c vitest.config.js tests/module4",
+    "test:module5": "vitest run -c vitest.config.js tests/module5",
+    "test:module6": "vitest run -c vitest.config.js tests/module6"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.3.12",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@testing-library/vue": "^8.0.1",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/test-utils": "^2.4.3",
+    "jsdom": "^23.0.1",
+    "vite": "^5.0.10",
+    "vitest": "^1.0.4"
+  }
+}
