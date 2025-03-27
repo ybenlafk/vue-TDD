@@ -2,9 +2,9 @@ import { describe, it, expect } from "vitest";
 import { mount } from "@vue/test-utils";
 import { products } from "../../mock-data/products";
 
-// This test will fail until the student creates the ProductCard component
+// This test will fail until the engineer creates the ProductCard component
 // with the expected functionality
-describe("ProductCard.vue", () => {
+fdescribe("ProductCard.vue", () => {
   it("renders product information correctly", async () => {
     // Dynamic import to allow the test to run even if file doesn't exist yet
     let ProductCard;
